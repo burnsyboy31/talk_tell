@@ -1,0 +1,108 @@
+{
+  "total_urls_processed": 8,
+  "successful_scrapes": 6,
+  "failed_scrapes": 2,
+  "total_segments": 47,
+  "total_words": 62696,
+  "companies": {
+    "MSFT": 47
+  },
+  "speakers": {
+    "Our Purpose": 20,
+    "Retired": 10,
+    "Prediction": 5,
+    "Jonathan Neilson": 4,
+    "Operator": 2,
+    "Amy Hood": 2,
+    "Karl Keirstead": 1,
+    "Raimo Lenschow": 1,
+    "Satya Nadella": 1,
+    "Duration": 1
+  },
+  "scraped_at": "2025-10-07T22:36:43.480263",
+  "metadata": [
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/08/05/microsoft-msft-q4-2025-earnings-call-transcript/",
+      "company_info": {
+        "title": "Microsoft (MSFT) Q4 2025 Earnings Call Transcript | The Motley Fool",
+        "ticker": "MSFT",
+        "quarter": "Q4 2025",
+        "speakers": [
+          "Karl Keirstead",
+          "Satya Nadella",
+          "Raimo Lenschow",
+          "Amy Hood",
+          "Jonathan Neilson",
+          "Operator"
+        ]
+      },
+      "segment_count": 11,
+      "scrape_order": 2
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2025/01/29/microsoft-msft-q2-2025-earnings-call-transcript/",
+      "company_info": {
+        "title": "Microsoft (MSFT) Q2 2025 Earnings Call Transcript | The Motley Fool",
+        "ticker": "MSFT",
+        "quarter": "Q2 2025",
+        "speakers": [
+          "Our Purpose"
+        ]
+      },
+      "segment_count": 7,
+      "scrape_order": 4
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2024/10/30/microsoft-msft-q1-2025-earnings-call-transcript/",
+      "company_info": {
+        "title": "Microsoft (MSFT) Q1 2025 Earnings Call Transcript | The Motley Fool",
+        "ticker": "MSFT",
+        "quarter": "Q1 2025",
+        "speakers": [
+          "Our Purpose"
+        ]
+      },
+      "segment_count": 7,
+      "scrape_order": 5
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2024/07/30/microsoft-msft-q4-2024-earnings-call-transcript/",
+      "company_info": {
+        "title": "Microsoft (MSFT) Q4 2024 Earnings Call Transcript | The Motley Fool",
+        "ticker": "MSFT",
+        "quarter": "Q4 2024",
+        "speakers": [
+          "Our Purpose"
+        ]
+      },
+      "segment_count": 8,
+      "scrape_order": 6
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2024/04/25/microsoft-msft-q3-2024-earnings-call-transcript/",
+      "company_info": {
+        "title": "Microsoft (MSFT) Q3 2024 Earnings Call Transcript | The Motley Fool",
+        "ticker": "MSFT",
+        "quarter": "Q3 2024",
+        "speakers": [
+          "Our Purpose"
+        ]
+      },
+      "segment_count": 7,
+      "scrape_order": 7
+    },
+    {
+      "url": "https://www.fool.com/earnings/call-transcripts/2024/01/31/microsoft-msft-q2-2024-earnings-call-transcript/",
+      "company_info": {
+        "title": "Microsoft (MSFT) Q2 2024 Earnings Call Transcript | The Motley Fool",
+        "ticker": "MSFT",
+        "quarter": "Q2 2024",
+        "speakers": [
+          "Our Purpose"
+        ]
+      },
+      "segment_count": 7,
+      "scrape_order": 8
+    }
+  ]
+}
