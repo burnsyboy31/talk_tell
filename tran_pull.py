@@ -16,6 +16,19 @@ import pandas as pd
 from datetime import datetime
 import os
 
+def normalize_quarter(qstr: str) -> str:
+    """
+    Convert a quarter string like 'Q4 2025' into a sortable numeric code '202504'.
+    If parsing fails, returns the original string.
+    """
+    if not isinstance(qstr, str):
+        return qstr
+    m = re.match(r"Q([1-4])\s*(\d{4})", qstr.strip(), flags=re.IGNORECASE)
+    if m:
+        qnum = m.group(1)
+        year = m.group(2)
+        return f"{year}0{qnum}"
+    return qstr
 
 class MotleyFoolTranscriptScraper:
     def __init__(self):
@@ -48,7 +61,8 @@ class MotleyFoolTranscriptScraper:
             
             quarter_match = re.search(r'(Q[1-4]\s+\d{4})', title_text)
             if quarter_match:
-                company_info['quarter'] = quarter_match.group(1)
+                raw_q = quarter_match.group(1)
+                company_info['quarter'] = normalize_quarter(raw_q)
         
         # Get all text content from the page
         page_text = soup.get_text()

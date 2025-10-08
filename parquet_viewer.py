@@ -21,7 +21,7 @@ def view_parquet_sample(filename=None, num_rows=10):
     
     # If no filename specified, find the most recent parquet file
     if not filename:
-        parquet_files = glob.glob("*.parquet")
+        parquet_files = glob.glob("Data/combined_transcripts.parquet")
         if not parquet_files:
             print("No parquet files found in current directory")
             return

@@ -3,7 +3,7 @@
   "successful_scrapes": 6,
   "failed_scrapes": 2,
   "total_segments": 47,
-  "total_words": 62696,
+  "total_words": 62681,
   "companies": {
     "MSFT": 47
   },
@@ -19,20 +19,20 @@
     "Satya Nadella": 1,
     "Duration": 1
   },
-  "scraped_at": "2025-10-07T22:36:43.480263",
+  "scraped_at": "2025-10-08T16:43:25.097231",
   "metadata": [
     {
       "url": "https://www.fool.com/earnings/call-transcripts/2025/08/05/microsoft-msft-q4-2025-earnings-call-transcript/",
       "company_info": {
         "title": "Microsoft (MSFT) Q4 2025 Earnings Call Transcript | The Motley Fool",
         "ticker": "MSFT",
-        "quarter": "Q4 2025",
+        "quarter": "202504",
         "speakers": [
-          "Karl Keirstead",
-          "Satya Nadella",
           "Raimo Lenschow",
+          "Karl Keirstead",
           "Amy Hood",
           "Jonathan Neilson",
+          "Satya Nadella",
           "Operator"
         ]
       },
@@ -44,7 +44,7 @@
       "company_info": {
         "title": "Microsoft (MSFT) Q2 2025 Earnings Call Transcript | The Motley Fool",
         "ticker": "MSFT",
-        "quarter": "Q2 2025",
+        "quarter": "202502",
         "speakers": [
           "Our Purpose"
         ]
@@ -57,7 +57,7 @@
       "company_info": {
         "title": "Microsoft (MSFT) Q1 2025 Earnings Call Transcript | The Motley Fool",
         "ticker": "MSFT",
-        "quarter": "Q1 2025",
+        "quarter": "202501",
         "speakers": [
           "Our Purpose"
         ]
@@ -70,7 +70,7 @@
       "company_info": {
         "title": "Microsoft (MSFT) Q4 2024 Earnings Call Transcript | The Motley Fool",
         "ticker": "MSFT",
-        "quarter": "Q4 2024",
+        "quarter": "202404",
         "speakers": [
           "Our Purpose"
         ]
@@ -83,7 +83,7 @@
       "company_info": {
         "title": "Microsoft (MSFT) Q3 2024 Earnings Call Transcript | The Motley Fool",
         "ticker": "MSFT",
-        "quarter": "Q3 2024",
+        "quarter": "202403",
         "speakers": [
           "Our Purpose"
         ]
@@ -96,7 +96,7 @@
       "company_info": {
         "title": "Microsoft (MSFT) Q2 2024 Earnings Call Transcript | The Motley Fool",
         "ticker": "MSFT",
-        "quarter": "Q2 2024",
+        "quarter": "202402",
         "speakers": [
           "Our Purpose"
         ]
